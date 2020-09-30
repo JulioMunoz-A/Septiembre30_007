@@ -8,6 +8,7 @@ def Numeros():
     pos=0
     neg=0
     cero=0
+    veces= int(input("Cuantos números desea ingresar?: "))
     for x in range(veces): 
         nume=int(input("Ingrese un número: "))
         if (nume>0):
@@ -16,15 +17,20 @@ def Numeros():
             neg=neg+1
         else:
             cero=cero+1
-            
-     print("Cantidad de números positivos: " + str(pos) +
-      "\n Cantidad de números negativos : "+ str(neg)+ 
-          "\n Cantidad de números iguales a cero: " + str(cero)) 
+
+      print("Cantidad de números positivos: " + str(pos)+ 
+          "\n Cantidad de números negativos : "+ str(neg)+ 
+          "\n Cantidad de números iguales a cero: " + str(cero))    
 
     Pausa=input("Presiones una tecla para continuar")
 
 def Datos():
     print("**** Opción de Datos de Personas ****")
+
+    #ingresar para n personas donde n es un número ingresado por teclado: nombre y edad. 
+    #calcular y mostrar: cantidad de personas mayores de edad y cantidad de menores de edad. 
+    #subir la modificar a github con el siguiente mensaje: "se programo la opción 2 del menú"
+    
     Pausa=input("Presiones una tecla para continuar")
 
 seguir=True
